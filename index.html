@@ -166,34 +166,34 @@
             <div class="row">
                 <div class="col">
                     <div class="contact-form-area">
-                        <form>
+                        <form class="gform" method="POST" data-email="jo.gangmin@cosmetheus.com" action="https://script.google.com/a/cosmetheus.com/macros/s/AKfycbwryob-GuAjfaxbTlgDYPDdsAzBo5qoGy1BcQgyJQ/exec">
                             <h3 class="text-center">Contact Us</h3>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="상호명" required>
+                                <input name="corproate_name" type="text" class="form-control" placeholder="상호명" required>
                             </div>
 
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="성함" required>
+                                <input name="name" type="text" class="form-control" placeholder="성함" required>
                             </div>
 
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="메일주소" required>
+                                <input name="email" type="email" class="form-control" placeholder="메일주소" required>
                             </div>
 
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="제목">
+                                <input name="title" type="text" class="form-control" placeholder="제목">
                             </div>
 
                             <div class="form-group">
-                                <textarea class="form-control" rows="7" placeholder="문의 내용 (개발 내용 업데이트만 원하시면 빈칸으로 남겨주세요)
+                                <textarea name="content" class="form-control" rows="7" placeholder="문의 내용 (개발 내용 업데이트만 원하시면 빈칸으로 남겨주세요)
                                 "></textarea>
                             </div>
                             <div class="form-group text-light">
-                                <input type="checkbox" class="d-inline" name="xxx" value="yyy" checked id="privacy-agreement">
+                                <input name="privacy_agreement" type="checkbox" class="d-inline" name="xxx" value="yyy" checked id="privacy-agreement">
                                 <label for="privacy-agreement" class="d-inline">개인정보 수집 동의</label>
                             </div>
                             <div class="form-group text-light">
-                                <input type="checkbox" class="d-inline" name="xxx" value="yyy" checked id="mailing-agreement">
+                                <input name="mailing_agreement" type="checkbox" class="d-inline" name="xxx" value="yyy" checked id="mailing-agreement">
                                 <label for="mailing-agreement" class="d-inline">마케팅 메일 수신 동의 (업데이트 발송을 위해 필수입니다)</label>
                             </div>
                             <button type="submit" class="btn btn-primary contact-btn mx-auto d-block">보내기</button>
